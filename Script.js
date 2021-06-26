@@ -104,10 +104,10 @@ function captura() {
 };
 
 const inventario = new Inventario();
-inventario.agregar("12", "carlos", "15", "16");
-inventario.agregar("17", "cocas", "152", "14");
-inventario.agregar("24","Dani","23","213");
-inventario.agregar("34","Sandy","23","213");
+inventario.agregar("12", "Doritos", "15", "16");
+inventario.agregar("17", "Cocas", "152", "14");
+inventario.agregar("24", "Sabritas","23","13");
+inventario.agregar("34", "Rufles","23","13");
 console.log('"Eliminar datos del ID 0" inventario.eliminar(0)');
 console.log(inventario.eliminar(0));
 console.log('"Buscar el ID 2" inventario.buscar(2)');
